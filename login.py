@@ -7,8 +7,8 @@ def login():
     username = entry_username.get()
     password = entry_password.get()
     
-    if username == "admin" and password == "1234":
-        messagebox.showinfo("Login Success", "Welcome, Admin!")
+    if username == "shubhajyoti" and password == "1234":
+        messagebox.showinfo("Login Success", "Welcome, shubhajyoti!")
     else:
         messagebox.showerror("Login Failed", "Invalid Username or Password")
 
