@@ -1,3 +1,4 @@
+5
 import math
 
 # Function to print the board
