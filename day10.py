@@ -20,5 +20,7 @@
 # print(fruit[-3:-1])
 
 #quickquiz
-nm = "shubh"
-print(nm[-4:-2])
+# nm = "shubh"
+# print(nm[-4:-2])
+input = "babab"
+print(input[0:3])
