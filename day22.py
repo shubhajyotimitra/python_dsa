@@ -1,6 +1,7 @@
 #tuples
-# tup = (1,2,3,4,5)
-# print(type(tup),tup)
+
+tup = (1,2,3,4,5)
+print(type(tup),tup)
 # #list can be changed but tuples cant be
 
 tup=(1,2,3,"shubha",56,78,"wow")
