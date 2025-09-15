@@ -12,18 +12,18 @@
 import time 
 timestamp = time.strftime('%H:%M:%S')
 print(timestamp)
-timestamp = int(time.strftime('%H'))
-print(timestamp)
-timestamp = int(time.strftime('%M'))
-print(timestamp)
-timestamp = int(time.strftime('%S'))
-print(timestamp)
+hour = int(time.strftime('%H'))
+print(hour)
+minute = int(time.strftime('%M'))
+print(minute)
+second = int(time.strftime('%S'))
+print(second)
 
-if 5<=timestamp<12:
+if 5<=hour<12:
     print("good morning")
-elif 12<=timestamp<16:
+elif 12<=hour<16:
     print("good afternoon")
-elif 16<=timestamp<21:
+elif 16<=hour<21:
     print("good evening")
 else:
     print("good night")
