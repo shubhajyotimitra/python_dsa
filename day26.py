@@ -27,3 +27,14 @@ print(f"hey my name is {name} and i am from {country}")
 #.2f
 txt = "for only {price:.2f}dollars!"
 print(txt.format(price = 49.099999))
+
+#also we can write this code as :
+
+price= 49.099999
+txt = f"for only {price:.2f}dollars!"
+print(txt)
+
+print(f"{30*2}")
+
+#if we want to see print(f"hey my name is {name} and i am from {country}") as it is 
+#then we have to use double {{}} so that the {name},{country} will not assignes and print as it is the statement is being printed.
