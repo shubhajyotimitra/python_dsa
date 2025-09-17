@@ -51,3 +51,13 @@ cities.remove("delhi")
 print(cities)
 cities.discard("berlin")
 print(cities)
+cities.pop()
+print(cities)
+cities.clear()
+print(cities)
+
+info = {"Carla",19,False,5.9}
+if "Carla" in info:
+    print("carla is present.")
+else:
+    print("carla is not present.")
