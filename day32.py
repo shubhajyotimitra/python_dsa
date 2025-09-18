@@ -23,5 +23,9 @@ print(ep1)
 
 # del ep1[567]. :it is used to delete a particular key value pair
 
+#python dictionaries documentation 
+#in this site you can find all the methods related to dictionaries.
+
+
 
 
