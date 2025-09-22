@@ -19,8 +19,9 @@ i = 0
 for i in range(0,len(questions)):
     question = questions[i]
     print(f"question for rs. {levels[i]}")
-    print(f"a.  {question[1]}            b.  {question[2]} ")
-    print(f"c.  {question[3]}            d.  {question[4]} ")
+    print(f"a. {question[1]:<20} b. {question[2]:<20}")
+    print(f"c. {question[3]:<20} d. {question[4]:<20}")
+
     reply = int(input("enter your answer :"))
     if(reply == question[-1]):
         print(f"congratulations! you have won rs. {levels[i]}")
