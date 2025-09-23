@@ -4,3 +4,8 @@
 #now append three random charecters at the startind and end 
 #else:
 #simply reverse the string
+
+#Decoding:
+#if the word contains less than 3 charecters, reverse it
+#else:
+#remove 3 random charecters from start and end . now remove the last letter and append it to the beginning
