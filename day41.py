@@ -7,6 +7,7 @@
 #once the virtual environment is activated, any packages that you install using pip will be installed in the virtual environment
 #how to activate virtual environment: source myenv/bin/activate
 
+
 #suppose if i have to give someone my project including all of my packages used in it then ,
 #The "requirement.txt"file is used.
 #in this , while we are in my own virtual environment by this command "pip freeze" we can see how many files we have installed in it 
@@ -20,4 +21,4 @@ print(pd.__version__)
 #also if i have to check which version is install in virtual environment 
 #what we have to do is : firstly we have to activate our virtual environment 
 #after that we have to write:
-#                            python,import pandas as pd,pd.__version__
+# => python,import pandas as pd,pd.__version__
