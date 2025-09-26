@@ -16,6 +16,7 @@
 
 import pandas as pd
 print(pd.__version__)
+
 #by this we got to know which version is install in the python global environment 
 
 #also if i have to check which version is install in virtual environment 
