@@ -20,8 +20,13 @@ print(pd.__version__)
 #from the above snippet we got to know which version is install in the python global version environment 
 
 #on the other hand if i have to check which version is install in my own virtual environment.
-#firstly what we have to do is : we have to activate our virtual environment.
+#firstly what we have to do is : we have to create virtual environment.
+#python3 -m venv myenv by this we can create virtual environment
+#note: instead of "myenv" we can create whatever we want to name my virtual environment file .
+#to activate what we have created virtual environment we have to write:
+#source my env/bin/activate , by this the virtual environment that we have created will be activate
 #after that we have to write:
 # => python,import pandas as pd,pd.__version__
 #thereafter we got to know which version of panda is install in my virtual environment
+
 
