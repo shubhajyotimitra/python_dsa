@@ -27,3 +27,12 @@ print(dir(math))
 import math
 print(math.nan,type(math.nan))
 #by this we can also find the functions type.
+
+
+from shubh import welcome,shubh
+welcome()
+print(shubh)
+
+from shubh import *
+welcome()
+print(shubh)
