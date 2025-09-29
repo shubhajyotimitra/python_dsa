@@ -1,4 +1,4 @@
-#how to imort work in python
+#how to import work in python
 import math
 result = math.sqrt(9)
 print(result)
@@ -26,7 +26,7 @@ print(dir(math))
 
 import math
 print(math.nan,type(math.nan))
-#by this we can also find the functions type.
+#by this we can also find the type of the function.
 
 
 from shubh import welcome,shubh
