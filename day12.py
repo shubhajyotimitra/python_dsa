@@ -16,9 +16,9 @@ if (a>18):
 else:
     print("you cannot drive")
 
-#as you can see there is a space before print in line 10 and 12
-#this space is called indentation
-#python uses indentation to define a block of code
+#as you can see there is a space before print in line 10 and 12.
+#this space is called indentation.
+#python uses indentation to define a block of code.
 
 
 appleprice = 210
