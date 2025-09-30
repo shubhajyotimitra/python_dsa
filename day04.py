@@ -1,4 +1,5 @@
 #varialbles and data types
+
 a=complex(8,2)
 print(a)
 b="shubhajyoti"
