@@ -19,7 +19,6 @@
 # c=1.8
 # d=2
 # print(c+d)
-
 #or
 a = 7 
 print (type(a))
