@@ -1,4 +1,5 @@
 #strings
+
 name = "shubh"
 friend=("pankaj")
 anotherfriend = "harsh"
