@@ -1,4 +1,4 @@
-# #strings methods 
+# #strings methods part 1
 
 # name = "shubhajyoti,shubham"
 # # print(name[0:11])
