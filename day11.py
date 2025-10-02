@@ -1,4 +1,4 @@
-# #string methods part 2 (strings are immutable)
+# #strings method part 2 (strings are immutable)
 
 # a= "shubhajyoti !!!!!! shubha"
 # print(a.upper())
