@@ -1,5 +1,4 @@
 #fuctions arguments in python
-
 def average(a,b):
     print("the average is ", (a+b)/2)
 
