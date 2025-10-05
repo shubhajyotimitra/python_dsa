@@ -1,7 +1,6 @@
 import os
 folders = os.listdir("data")
 print(folders)
-
 #this will tell how many folders it is consisting
 # for folders in folders:
 #     print(folders)
