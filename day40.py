@@ -8,8 +8,7 @@ for mark in marks:
         print("osm shubh")
     index +=1
     
-    
-    
+
     
 marks = [12,36,32,98,12,45,1,4]
 
