@@ -1,4 +1,5 @@
 #sets
+
 s = {2,4,2,6}
 print(s)
 #sets are unordered collections of unique elements
