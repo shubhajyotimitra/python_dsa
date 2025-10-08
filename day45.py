@@ -39,7 +39,7 @@ words = st.split(" ")
 coding = input("1 for Coding or 0 for Decoding: ")
 coding = True if coding == "1" else False
 
-# Function to generate random 3-letter strings
+# Function to generate random 3-letter strings:
 def random_string():
     letters = string.ascii_lowercase
     return ''.join(random.choices(letters, k=3))
