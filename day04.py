@@ -1,4 +1,4 @@
-#varialbles and data types
+#variables and data types
 
 a=complex(8,2)
 print(a)
