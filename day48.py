@@ -1,33 +1,33 @@
 # read(), readlines() anad other methods
-# f=open('shubh.txt' , 'r')
-# while True:
-#     line = f.readline()
-#     print(line)
-#     if not line:
-#      print(line, type(line))
-#      break
+f=open('shubh.txt' , 'r')
+while True:
+    line = f.readline()
+    print(line)
+    if not line:
+     print(line, type(line))
+     break
 
-# f=open('shubh.txt' , 'r')
-# while True:
-#     line = f.readline()
-#     if not line:
-#      break
-#     print(line)
+f=open('shubh.txt' , 'r')
+while True:
+    line = f.readline()
+    if not line:
+     break
+    print(line)
 
-# f=open('shubhm.txt' , 'r')
-# i = 0
-# while True:
-#     line = f.readline()
-#     i = i + 1
-#     if not line:
-#      break
-#     m1 = line.split(",")[0]
-#     m2 = line.split(",")[1]
-#     m3 = line.split(",")[2]
-#     print(f"Marks of student {i} in Maths is : {m1}")
-#     print(f"Marks of student {i} in Science is : {m2}")
-#     print(f"Marks of student {i} in Ssc is : {m3}")
-#     print(line)
+f=open('shubhm.txt' , 'r')
+i = 0
+while True:
+    line = f.readline()
+    i = i + 1
+    if not line:
+     break
+    m1 = line.split(",")[0]
+    m2 = line.split(",")[1]
+    m3 = line.split(",")[2]
+    print(f"Marks of student {i} in Maths is : {m1}")
+    print(f"Marks of student {i} in Science is : {m2}")
+    print(f"Marks of student {i} in Ssc is : {m3}")
+    print(line)
     #if i have to change this into integer then we have to use typecasting method to do so 
 
 
