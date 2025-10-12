@@ -1,4 +1,5 @@
 # read(), readlines() anad other methods
+
 f=open('shubh.txt' , 'r')
 while True:
     line = f.readline()
