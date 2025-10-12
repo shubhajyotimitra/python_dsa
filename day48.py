@@ -39,5 +39,6 @@ f = open('shubh2.txt' , 'w')
 lines = ['line 1\n','line 2\n','line 3\n']
 f.writelines(lines)
 f.close()
+
 #writelines charecters doesnot add newline charecters between the strings in the sequence.
 #if you want to add newlines between the strings , you can use a loop to write each string seperately.
