@@ -14,4 +14,11 @@ print(double(5))
 print(cube(5))
 print(avg(3,5))
 print(ag(3,5,10))
+
+#aymnomous functions:
+def appl(fx , value):
+    return 6 + fx(value)
+print(appl(lambda x: x*x , 2))
+#lambda functions can also include multiple statememt, but they are limited to a single expression.
+
     
