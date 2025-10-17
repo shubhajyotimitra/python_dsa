@@ -16,4 +16,27 @@ newl = list(map(cube,l))
 print(newl)
 
 #filter function:
+def filter_function(x):
+ return x>4
+newnewl = list(filter(filter_function,l))
+print(newnewl)
 
+#by lambda function:
+l = [1,2,3,4,5,6,7,8,9]
+newl = list(map(lambda x: x**3,l))
+print(newl)
+
+#reduce function:
+#by using lambda function 
+from functools import reduce
+l = [1,2,3,4]
+product = reduce(lambda x,y: x*y , l)
+print(product)
+
+#by using defined function
+from functools import reduce
+l = [1,2,3,4]
+def mysum(x,y):
+    return x+y
+sum = reduce(mysum,l)
+print(sum)
