@@ -1,6 +1,7 @@
 #Map, filter and reduce in python:
 #simplest way to understand map function is to see it as a for loop that applies a function to each item in an iterable (like a list) and returns a new iterable (like a list) with the results.
 #by using defined function:
+
 def cube(x):
     return x**3
 print(cube(3))
