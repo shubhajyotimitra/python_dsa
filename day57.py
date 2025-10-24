@@ -34,11 +34,11 @@ def greet(fx):
 @greet
 def hello ():
     print("hello world !")
-
+@greet
 def add (a,b):
     print (a+b)
 hello ()
-greet(add)(5,7)
+(add)(5,7)
 
 #practical use case of decorators:
 #1. logging
