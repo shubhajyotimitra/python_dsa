@@ -23,6 +23,14 @@ class Myclass:
     def ten_value(self):
         return 10* self._value
     
+    @ten_value.setter
+    def ten_value(self,new_value):
+        self._value = new_value / 10
+    
 obj = Myclass(10)
-print(obj.ten_value)  #getter
+obj.ten_value = 50   #setter
+print(obj.ten_value) #getter
 obj.show() 
+
+#Getter in python is used to access the value of a private attribute, while Setter is used to modify the value of a private attribute.
+#Setters in python are defined using the @property_name.setter decorator, where property_name is the name of the property for which the setter is being defined.
