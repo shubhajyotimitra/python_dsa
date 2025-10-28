@@ -63,3 +63,33 @@ class Car:
 
 car1 = Car("Toyota", "Camry")   # create an object
 car1.display_info()             # call the method
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name            # Public attribute
+        self._department = "HR"     # Protected attribute
+        self.__salary = salary      # Private attribute
+
+    def display_details(self):
+        print(f"Name: {self.name}")
+        print(f"Department: {self._department}")
+        print(f"Salary: {self.__salary}")
+
+
+# Create an object of Employee
+emp1 = Employee("Shubh", 50000)
+
+# Call the method to display employee details
+emp1.display_details()
+
+# Accessing public attribute directly
+print("\nAccessing Public Attribute:")
+print(emp1.name)
+
+# Accessing protected attribute (possible but not recommended)
+print("\nAccessing Protected Attribute:")
+print(emp1._department)
+
+# Accessing private attribute (NOT directly accessible)
+print("\nAccessing Private Attribute the safe way:")
+print(emp1._Employee__salary)   # Name mangled form
