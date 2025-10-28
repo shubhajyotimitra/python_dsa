@@ -1,4 +1,5 @@
 # Snake water gun game solution day53.py
+print("Welcome to Snake, Water and Gun game")
 user = int(input("Enter 0 for Snake, 1 for Water, 2 for Gun: \n"))
 import random
 comp = random.randint(0, 2) 
