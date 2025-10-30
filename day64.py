@@ -15,11 +15,13 @@ emp2.showDetails()  # Output: Employee Name: Bob
 
 class Employee:
     companyName = "TechCorp"  # Class Variable
+    noofEmployees = 0  # Class Variable
     def __init__(self , name ):
         self.name = name  # Instance Variable
         self.raise_amount = 1.05  # Instance Variable
+        Employee.noofEmployees += 1
     def showDetails(self):
-        print(f"The name of the employee is {self.name} and the raise amount in {self.companyName} is {self.raise_amount}") 
+        print(f"The name of the employee is {self.name} and the raise amount in {self.noofEmployees} sized {self.companyName} is {self.raise_amount}") 
 emp1 = Employee("Ramesh")
 emp1.companyName = "InnovateLtd"  # This creates an instance variable, does not modify class variable
 emp1.showDetails()  # Output: Employee Name: Ramesh
