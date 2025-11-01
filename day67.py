@@ -3,6 +3,9 @@ class Employee:
  company = "apple"
  def show(self):
     print(f" the name is {self.name} and the company is {self.company}")
+    
+ @classmethod
+ #class method to change the company name
 
  def changeCompany(cls , newCompany):
     cls.company = newCompany
