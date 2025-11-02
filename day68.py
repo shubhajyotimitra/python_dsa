@@ -21,7 +21,7 @@ class consultant:
         self.salary = salary
     @classmethod
     def from_string(cls, string):
-        return cls(string.split("-")[0], string.split("-")[1])
+        return cls(string.split("-")[0], int(string.split("-")[1]))
 
 c1 =  consultant("Shivam",12000)
 print(c1.name)
@@ -31,3 +31,29 @@ string = "Rohit-12000"
 c2=  consultant.from_string(string)
 print(c2.name)
 print(c2.salary)
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    @classmethod
+    def from_birth_year(cls, name, birth_year):
+        from datetime import date
+        current_year = date.today().year
+        age = current_year - birth_year
+        return cls(name, age)
+p1 = Person.from_birth_year("John", 1990)
+print(p1.name)
+print(p1.age)
+
+class Person:
+    def __init__(self, name, age):
+      self.name = name
+      self.age = age
+    @classmethod
+    def from_string(cls, string):      
+        name, age = string. split(',')
+        return cls(name, int(age))
+person = Person.from_string( "John Doe, 30")
+print(person.name, person. age)
