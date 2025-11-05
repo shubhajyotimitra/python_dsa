@@ -21,3 +21,33 @@ print(rec.area())
 
 c = Circle (5)
 print(c.area())
+
+class Shape:
+    def area(self):
+        return 0
+    def perimeter(self):
+        return 0
+
+class Rectangle(Shape):
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+    
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+
+class Square(Rectangle):
+    def __init__(self, side):
+        super().__init__(side, side)
+    
+    def perimeter(self):
+        print("Perimeter of square:")
+        return super().perimeter()
+
+sq = Square(4)
+print("Area:", sq.area())
+print("Perimeter:", sq.perimeter())
+
