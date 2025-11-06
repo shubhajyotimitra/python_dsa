@@ -1,6 +1,4 @@
 # Clear clutter problem solving day-66
-
-
 import os 
 
 files = os.listdir("cluttered")
