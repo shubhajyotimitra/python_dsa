@@ -16,7 +16,21 @@ class Dog (Animal):
     def make_sound(self):
         print("Bark!")    
 
+class Cat (Animal):
+    def __init__(self, name, breed):
+         Animal.__init__(self,name,species="Cat")
+         self.breed = breed
+    def make_sound(self):
+        print("Meow!")         
+
 d = Dog("Dog","Doggerman")
 d.make_sound()
 a = Animal("Dog","Dog")
-a.make_sound()             
+a.make_sound()  
+
+#Quick Quiz : implement a cat class by using the animal class. Add some methods specific to cat.
+
+d = Cat("Cat","Persian")
+d.make_sound()
+a = Animal("Cat","Cat")
+a.make_sound()  
