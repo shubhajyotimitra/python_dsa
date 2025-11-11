@@ -35,3 +35,6 @@ o = DancerEmployee("Kathak","Shivani")
 print(o.name)
 print(o.dance)
 o.show()
+# MRO dox in python :
+print(DancerEmployee.mro())
+
