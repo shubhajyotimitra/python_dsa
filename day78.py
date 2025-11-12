@@ -5,3 +5,14 @@
 # Class B → Derived from A
 # Class C → Derived from B
 # This forms a chain of inheritance.
+
+# Syntax :
+
+# class A:
+#     pass
+
+# class B(A):
+#     pass
+
+# class C(B):
+#     pass
