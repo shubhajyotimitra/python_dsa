@@ -49,7 +49,7 @@ o.show_details()
              
 o = Dog("Tommy", "Black")
 o.show_details()
-
+print(GoldenRetriver.mro())
 
 # While calling the object as Dog You are creating a Dog object, NOT a GoldenRetriever object.
 # So only Dog’s __init__() is executed, not GoldenRetriever’s __init__().
