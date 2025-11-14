@@ -45,5 +45,18 @@ class GoldenRetriver(Dog):
         print(f"Color: {self.color}")
 
 o = GoldenRetriver("Tommy", "Black")
-o.show_details()
+o.show_details() 
              
+o = Dog("Tommy", "Black")
+o.show_details()
+
+
+# While calling the object as Dog You are creating a Dog object, NOT a GoldenRetriever object.
+# So only Dog’s __init__() is executed, not GoldenRetriever’s __init__().
+# Dog’s __init__() creates:
+# self.name
+# self.species = "Dog"
+# self.breed
+# It does NOT create
+# self.color (because color is defined only in GoldenRetriever)
+# So Dog objects simply don’t have a color attribute.
