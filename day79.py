@@ -3,6 +3,8 @@
 # Hybrid inheritance is a type of inheritance in Python where more than one type of inheritance (such as single, multiple, multilevel, or hierarchical) is combined together in the same program.
 # It forms a complex relationship between classes by mixing different inheritance patterns.
 
+#syntax example of hierarchical inheritance:
+
 class BaseClass:
     pass
 
