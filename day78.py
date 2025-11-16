@@ -8,14 +8,14 @@
 
 # Syntax :
 
-# class A:
-#     pass
+class A:
+    pass
 
-# class B(A):
-#     pass
+class B(A):
+    pass
 
-# class C(B):
-#     pass
+class C(B):
+    pass
 
 class Animal:
     def __init__(self, name , species):
