@@ -1,5 +1,7 @@
 # Creating command line utility in python:
 # A command line utility is a program that is designed to be run from the command line interface (CLI) of an operating system. It allows users to perform specific tasks or operations by entering commands and arguments in a terminal or command prompt.
+# A command-line utility in Python is simply a Python script that you can run from the terminal using commands—just like git, pip, or ls.
+# You can build one easily using argparse, click, or typer.
 
 import argparse
 
