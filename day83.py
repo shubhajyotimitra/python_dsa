@@ -24,3 +24,15 @@ if __name__ == "__main__":
 
 # Run this command in terminal to download any image from the internet:
 # curl https://www.sexyloops.com/movies/background.jpg --output shubh.jpg
+
+import argparse
+
+parser = argparse.ArgumentParser()
+# Add comand line arguments 
+parser.add_argument("Url", help = "Url of the fole to download ")
+parser.add_argument("output", help = "Bu which name do you want to save your file ")
+
+args = parser.parse_args()
+
+print(args.arg1)
+print(args.arg2)
