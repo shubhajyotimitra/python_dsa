@@ -21,3 +21,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Run this command in terminal to download any image from the internet:
+# curl https://www.sexyloops.com/movies/background.jpg --output shubh.jpg
