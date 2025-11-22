@@ -8,3 +8,9 @@ for n in numbers:
     squared = n ** 2
     squared_numbers.append(squared)
 print(squared_numbers)      
+# Example with walrus operator:
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = []        
+for n in numbers:
+    squared_numbers.append(squared := n ** 2)
+print(squared_numbers)
