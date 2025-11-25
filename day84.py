@@ -40,3 +40,9 @@ for n in numbers:
     squared_numbers.append(squared := n ** 2)
 print(squared_numbers)
 
+# Check and use list lenghth:
+nums = [1, 2, 3, 4, 5]
+
+if (l := len(nums)) > 3:
+    print("Length =", l)
+
