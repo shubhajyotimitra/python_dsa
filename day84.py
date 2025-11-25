@@ -46,3 +46,6 @@ nums = [1, 2, 3, 4, 5]
 if (l := len(nums)) > 3:
     print("Length =", l)
 
+# Extract and compare first element :
+if (first := nums[0]) == 1:
+    print("First =", first)
