@@ -1,37 +1,39 @@
-# # variable assignment =>
-# x = 5
-# y = "John"
-# print(x)
-# print(y)
+# "Added Python fundamental exercises and examples."
 
-# # casting =>
-# x = str(3)    # x will be '3'
-# y = int(3)    # y will be 3
-# z = float(3)  # z will be 3.0
-# print(x)    
-# print(y)
-# print(z)
+# variable assignment =>
+x = 5
+y = "John"
+print(x)
+print(y)
 
-# # assigning multiple values =>
-# x, y, z = "Orange", "Banana", "Cherry"
-# print(x)
-# print(y)
-# print(z)
+# casting =>
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
+print(x)    
+print(y)
+print(z)
 
-# x = y = z = "Orange"
-# print(x)
-# print(y)
-# print(z)
+# assigning multiple values =>
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
 
-# # output variable =>
-# x = "python is osm "
-# print(x)
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
 
-# x = "Python"
-# y = "is"
-# z = "awesome"
-# print(x, y, z)
-# print(x + " " + y + " " + z)
+# output variable =>
+x = "python is osm "
+print(x)
+
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+print(x + " " + y + " " + z)
 
 x= 5
 y = "john"
@@ -39,10 +41,10 @@ print(x)
 print(y)
 
 # global variable =>
-# x = "awesome"   
-# def myfunc():
-#   print("Python is " + x)   
-# myfunc()
+x = "awesome"   
+def myfunc():
+  print("Python is " + x)   
+myfunc()
 
 x = "awesome"
 
@@ -54,16 +56,17 @@ myfunc()
 
 print("Python is " + x)
 
-# def myfunc():
-#   global x
-#   x = "fantastic"
+def myfunc():
+  global x
+  x = "fantastic"
 
-# myfunc()
+myfunc()
 
-# print("Python is " + x)
+print("Python is " + x)
 
 
 # To change the value of a global variable inside a function, refer to the variable by using the global keyword:
+
 x = "awesome"
 
 def myfunc():
@@ -322,32 +325,32 @@ print(x ** y)  # Exponentiation
 print(x // y)  # Floor Division (rounds down to the nearest whole number)
 
 # Assignment Operators =>
-# x = 5
-# print(x)
-# x += 3
-# print(x)
-# x -= 2  
-# print(x)  
-# x *= 4  
-# print(x)  
-# x /= 2  
-# print(x)  
-# x %= 3  
-# print(x)  
-# x //= 2  
-# print(x)  
-# x **= 3  
-# print(x)  
-# x &= 4  
-# print(x)  
-# x |= 2  
-# print(x)  
-# x ^= 3  
-# print(x)  
-# x >>= 1  
-# print(x)  
-# x <<= 2  
-# print(x)  
+x = 5
+print(x)
+x += 3
+print(x)
+x -= 2  
+print(x)  
+x *= 4  
+print(x)  
+x /= 2  
+print(x)  
+x %= 3  
+print(x)  
+x //= 2  
+print(x)  
+x **= 3  
+print(x)  
+x &= 4  
+print(x)  
+x |= 2  
+print(x)  
+x ^= 3  
+print(x)  
+x >>= 1  
+print(x)  
+x <<= 2  
+print(x)  
 
 # Walrus Operator =>
 # The walrus operator := assigns values to variables as part of a larger expression.
@@ -356,19 +359,21 @@ if (count := len(numbers)) > 3:
   print(f"list has {count} elements ")
 
 # Comparison Operators =>
-# x = 12
-# y = 7
+x = 12
+y = 7
 
-# print(x == y)
-# print(x != y)
-# print(x > y)
-# print(x < y)
-# print(x >= y)
-# print(x <= y)
+print(x == y)
+print(x != y)
+print(x > y)
+print(x < y)
+print(x >= y)
+print(x <= y)
+
 # Chaining compariso operators 
 x = 5
 print(4 < x < 10)
 print(1 < x and x < 10)
+
 # Logical Operators =>
 # and , or , not
 a = 5
@@ -384,6 +389,7 @@ z = x
 print(x is z)
 print(x is y)
 print(x is not y)
+
 # is - Checks if both variables point to the same object in memory
 # == - Checks if the values of both variables are equal
 x = [1, 2, 3]
@@ -670,32 +676,32 @@ elif score >= 60:
 
 # Python else =>
 # Use int() to convert the input string into an integer
-# a = int(input("Enter value for a: "))
-# b = int(input("Enter value for b: "))
+a = int(input("Enter value for a: "))
+b = int(input("Enter value for b: "))
 
-# if b > a:
-#   print("b is greater than a")
-# elif a == b:
-#   print("a and b are equal")
-# else:
-#   print("a is greater than b")
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
 
-# # complete if-elif-else chain =>
-# Temperature = int(input("Enter the temperature: "))
-# if Temperature > 30:
-#   print("It's a hot day")
-# elif Temperature > 20:
-#   print("It's a nice day")
-# elif Temperature > 10:
-#   print("It's a bit cold")
-# else:
-#   print("It's cold")
+# complete if-elif-else chain =>
+Temperature = int(input("Enter the temperature: "))
+if Temperature > 30:
+  print("It's a hot day")
+elif Temperature > 20:
+  print("It's a nice day")
+elif Temperature > 10:
+  print("It's a bit cold")
+else:
+  print("It's cold")
 
-# Username = input("Enter username: ")
-# if len(Username) > 0 :
-#   print(f"Welcome {Username}")
-# else:
-#   print("Username cannot be empty")  
+Username = input("Enter username: ")
+if len(Username) > 0 :
+  print(f"Welcome {Username}")
+else:
+  print("Username cannot be empty")  
 
 # Short hand if =>
 a = 5
@@ -765,6 +771,7 @@ else:
 # When a statement is required syntactically but no action is needed
 # As a placeholder for future code during development
 # In empty functions or classes that you plan to implement later
+
 a = 33
 b = 200 
 if b > a:
@@ -1117,16 +1124,16 @@ except:
 finally:
   print("The 'try except' is finished")
 
-# # Raise an Exception =>
-# x = -1
+# Raise an Exception =>
+x = -1
 
-# if x < 0:
-#   raise Exception("Sorry, no numbers below zero")
+if x < 0:
+  raise Exception("Sorry, no numbers below zero")
 
-# x = "hello"
+x = "hello"
 
-# if not type(x) is int:
-#   raise TypeError("Only integers are allowed")
+if not type(x) is int:
+  raise TypeError("Only integers are allowed")
 
 # Python String formatting =>
 txt = f"The price is 49 dollars"
@@ -1206,34 +1213,34 @@ x = myfunc()
 print(x)
 
 # Python User Input =>
-# name = input("Enter your name:")
-# print(f"Hello {name}")
+name = input("Enter your name:")
+print(f"Hello {name}")
 
 # Multiple inputs =>
-# name = input("Enter your name:")
-# print(f"Hello {name}")
-# fav1 = input("What is your favorite animal:")
-# fav2 = input("What is your favorite color:")
-# fav3 = input("What is your favorite number:")
-# print(f"Do you want a {fav2} {fav1} with {fav3} legs?")
+name = input("Enter your name:")
+print(f"Hello {name}")
+fav1 = input("What is your favorite animal:")
+fav2 = input("What is your favorite color:")
+fav3 = input("What is your favorite number:")
+print(f"Do you want a {fav2} {fav1} with {fav3} legs?")
 
 # Input Number =>
-# x = input("Enter a number:")
-# y = math.sqrt(float(x))
+x = input("Enter a number:")
+y = math.sqrt(float(x))
 
-# print(f"The square root of {x} is {y}")
+print(f"The square root of {x} is {y}")
 
 # Validate Input => (Doubt)
-# y = True
-# while y == True:
-#   x = input("Enter a number:")
-#   try:
-#     x = float(x);
-#     y = False
-#   except:
-#     print("Wrong input, please try again.")
+y = True
+while y == True:
+  x = input("Enter a number:")
+  try:
+    x = float(x);
+    y = False
+  except:
+    print("Wrong input, please try again.")
 
-# print("Thank you!")
+print("Thank you!")
 
 
 # File Handling =>
@@ -1329,7 +1336,3 @@ else:
 # Delete folder =>
 import os
 os.rmdir("myfolder")
-
-# Recursion =>
-# Backtracking =>
-# w
